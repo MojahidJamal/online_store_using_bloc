@@ -39,7 +39,8 @@ dependencies:
   flutter_screenutil:
   dots_indicator: ^2.1.1
   intl:
-  cloud_firestore:
+  cloud_firestore: ^4.9.2
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:

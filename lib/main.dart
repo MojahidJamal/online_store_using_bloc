@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:learn_bloc/app_blocs.dart';
 import 'package:learn_bloc/app_events.dart';
 import 'package:learn_bloc/app_states.dart';
-import 'package:learn_bloc/pages/sign_in/widgets/sign_in.dart';
+import 'package:learn_bloc/pages/sign_in/sign_in.dart';
 import 'package:learn_bloc/pages/welcome/bloc/welcome_blocs.dart';
 import 'package:learn_bloc/pages/welcome/welcome.dart';
 
