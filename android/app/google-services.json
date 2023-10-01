@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126601167405",
+    "project_id": "online-store-ff6cc",
+    "storage_bucket": "online-store-ff6cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126601167405:android:3f8c48031ab2695d346ea4",
+        "android_client_info": {
+          "package_name": "com.example.learn_bloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrLh_anW9Swu8xYz5EK6pbdppQD_b6EQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
