@@ -8,6 +8,8 @@ class SignInBLoc extends Bloc<SignInEvent, SignInState> {
     on<PasswordEvent>(_passwordEvent);
   }
   void _emailEvent(EmailEvent event, Emitter<SignInState> emit) {
+    print(event.email);
+    print(event.email);
     emit(state.copyWith(email: event.email));
   }
 

@@ -56,3 +56,16 @@ Widget reusableText(String text) {
     ),
   );
 }
+
+Widget buildTextField(
+    String hintText, String textType, void Function(String value)? func) {
+  return Container(
+    color: Colors.grey,
+    child: TextField(
+      onChanged: (value) => func!(value),
+      keyboardType: TextInputType.multiline,
+      decoration: InputDecoration(hintText: hintText),
+      obscureText: textType == 'password' ? true : false,
+    ),
+  );
+}
